@@ -31,11 +31,16 @@ gem 'jbuilder', '~> 1.0.1'
 # Use unicorn as the app server
 # gem 'unicorn'
 
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'pg'
+end
+
 # Deploy with Capistrano
 # gem 'capistrano', group: :development
-
-# To use debugger
-# gem 'debugger'
 
 gem "active_model_serializers"
 group :assets do
