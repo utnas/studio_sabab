@@ -49,7 +49,7 @@ Material.create([
 								</ul>
 							</li>
 						</ul>"},
-  {name: 'Console DMX 100', description: "<h3>Caractéristiques techniques</h3><ul><li>
+  {name: 'Console Sony DMX 100', description: "<h3>Caractéristiques techniques</h3><ul><li>
 								<strong>Descriptif Connections</strong>
 								<ul>
 									<li><strong>Voies Mono:&nbsp;</strong>56</li>
@@ -89,5 +89,6 @@ Material.create([
 									</li>
 								</ul>
 							</li>
-						</ul>"}
+						</ul>"},
+	{name: 'Logiciels', description: "<h3>Capture de son</h3><ul><li>Protools HD</li><li>Logic Pro</li><li>Soundtrack</li></ul><h3>Mixage</h3><ul><li>Cubase</li></ul>"}
 ])
