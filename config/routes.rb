@@ -5,5 +5,6 @@ StudioSabab::Application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   resources :materials
+  resources :artists
 
 end

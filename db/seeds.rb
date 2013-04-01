@@ -5,9 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Material.create([
-
-  {name: 'MacBook', description: " <h3>Processeurs</h3>
+Artist.create([{first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro descirption"}, 
+{first_name: 'Reddy', last_name: 'Amissi', description: "Reddy description"},
+{first_name: 'Jean', last_name: 'Goubald', description: 'Description Goubald'},
+{first_name: 'Jossart', last_name: 'Nyoka-Longo', description: 'Zaïko Langa-Langa Description Zaïko'}
+])
+Material.create([{name: 'MacBook', description: " <h3>Processeurs</h3>
 						<ul>
 							<li>
 							    <strong>Quad-core (configuration standard)</strong>
