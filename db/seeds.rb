@@ -5,12 +5,20 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-Artist.create([{first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro descirption"}, 
-{first_name: 'Reddy', last_name: 'Amissi', description: "Reddy description"},
-{first_name: 'Jean', last_name: 'Goubald', description: 'Description Goubald'},
-{first_name: 'Jossart', last_name: 'Nyoka-Longo', description: 'Zaïko Langa-Langa Description Zaïko'}
+albums =  Album.create([
+{title: 'Encore et toujours', description: 'Nouvel album du poète Simaro'}
+
 ])
-Material.create([{name: 'MacBook', description: " <h3>Processeurs</h3>
+
+Artist.create([
+{first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro description"},# albums: albums.first}, 
+{first_name: 'Reddy', last_name: 'Amisi', description: "Reddy description"}, # albums: albums.first},
+{first_name: 'Jean', last_name: 'Goubald', description: 'Description Goubald'}, #albums: albums.last},
+{first_name: 'Jossart', last_name: 'Nyoka-Longo', description: 'Zaïko Langa-Langa Description Zaïko'},# albums: albums.first}
+])
+
+Material.create([
+    {name: 'MacBook', description: " <h3>Processeurs</h3>
 						<ul>
 							<li>
 							    <strong>Quad-core (configuration standard)</strong>
@@ -52,7 +60,7 @@ Material.create([{name: 'MacBook', description: " <h3>Processeurs</h3>
 								</ul>
 							</li>
 						</ul>"},
-  {name: 'Console Sony DMX 100', description: "<h3>Caractéristiques techniques</h3><ul><li>
+    {name: 'Console Sony DMX 100', description: "<h3>Caractéristiques techniques</h3><ul><li>
 								<strong>Descriptif Connections</strong>
 								<ul>
 									<li><strong>Voies Mono:&nbsp;</strong>56</li>
@@ -93,5 +101,5 @@ Material.create([{name: 'MacBook', description: " <h3>Processeurs</h3>
 								</ul>
 							</li>
 						</ul>"},
-	{name: 'Logiciels', description: "<h3>Capture de son</h3><ul><li>Protools HD</li><li>Logic Pro</li><li>Soundtrack</li></ul><h3>Mixage</h3><ul><li>Cubase</li></ul>"}
+    {name: 'Logiciels', description: "<h3>Capture de son</h3><ul><li>Protools HD</li><li>Logic Pro</li><li>Soundtrack</li></ul><h3>Mixage</h3><ul><li>Cubase</li></ul>"}
 ])

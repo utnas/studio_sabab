@@ -39,9 +39,24 @@ group :production do
   gem 'pg'
 end
 
+group :test, :development do
+  gem 'minitest'
+  gem 'minitest-rails'
+  gem 'minitest-rails-capybara'
+  gem 'capybara'
+  gem 'konacha'
+  gem 'poltergeist'
+end
+
+group :test do
+  # Pretty printed test output
+  gem 'turn', '~> 0.8.3'
+end
+
 # Deploy with Capistrano
 # gem 'capistrano', group: :development
 
+gem 'protected_attributes'
 gem "active_model_serializers"
 group :assets do
   gem "ember-rails", github: "emberjs/ember-rails"

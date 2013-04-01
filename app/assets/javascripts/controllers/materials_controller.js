@@ -1,3 +1,3 @@
 StudioSabab.MaterialsController = Ember.ArrayController.extend({
-	sortProperties: ['name', 'description']
+	sortProperties: ['title', 'description']
 });

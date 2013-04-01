@@ -1,3 +1,9 @@
 /* Put your CSS here */
-html, body { margin: 20px; }
-.active { font-weight: bold; }
+html, 
+body { 
+	margin: 20px;
+}.active { 
+	font-weight: bold; 
+	font-size: 18px;
+	color: #223D75;
+ }

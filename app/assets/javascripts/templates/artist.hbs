@@ -3,3 +3,9 @@
 </h1>
 <hr>
 {{markdown description}}
+<hr>
+{{#each album in albums}}
+	{{album.name}}
+	<hr>
+	{{markdonw album.description}}
+{{/each}}
