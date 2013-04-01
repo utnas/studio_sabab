@@ -49,8 +49,7 @@ Material.create([
 								</ul>
 							</li>
 						</ul>"},
-  {name: 'Console DMX 100', description: "<h3>Caractéristiques techniques</h3><ul>
-							<li>
+  {name: 'Console DMX 100', description: "<h3>Caractéristiques techniques</h3><ul><li>
 								<strong>Descriptif Connections</strong>
 								<ul>
 									<li><strong>Voies Mono:&nbsp;</strong>56</li>
@@ -77,7 +76,14 @@ Material.create([
 									    <strong>Spécification Audionumériques</strong>
 										<ul>
 											<li><strong>Matrices:&nbsp;</strong>Interne permettant un routing quasi illimité</li>
-											<li><strong>Traitement Type Correcteur: &nbsp;</strong>Eq 4 bandes,dynamique,delay sur toutes les entrées</li>
+											<li>
+												<strong>Traitement Type Correcteur: &nbsp;</strong>
+												<ul>
+											    	<li>Eq 4 bandes</li>
+											    	<li>dynamique</li>
+											    	<li>delay sur toutes les entrées</li>
+												</ul>
+											</li>
 											<li><strong>Convertisseur: &nbsp;</strong>AD/DA 24 bits - jusqu'à 96 kHz</li>
 										</ul>
 									</li>
