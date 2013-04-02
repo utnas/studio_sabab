@@ -2,8 +2,12 @@
 html, 
 body { 
 	margin: 20px;
+	#background: url("/img/bgd.png");
 }.active { 
 	font-weight: bold; 
 	font-size: 18px;
 	color: #223D75;
  }
+navbar{
+	background:  #223D75;
+}

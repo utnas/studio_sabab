@@ -3,3 +3,5 @@ StudioSabab.MaterialsRoute = Ember.Route.extend({
     	return StudioSabab.Material.find();
   	}
 });
+
+
