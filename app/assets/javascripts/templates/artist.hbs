@@ -5,7 +5,12 @@
 {{markdown description}}
 <hr>
 {{#each album in albums}}
-	{{album.name}}
-	<hr>
-	{{markdonw album.description}}
+	<ul>
+		<li>
+			<h4>Album Title: {{album.title}}</h4>
+			<ul>
+				{{album.description}}
+			</ul>
+		</li>
+	</ul>
 {{/each}}

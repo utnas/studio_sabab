@@ -3,7 +3,17 @@ StudioSabab.Material = DS.Model.extend({
 	description: DS.attr("string")
 });
 
-//StudioSabab.Material.FIXTURES = [
-//	{id: 1, name: 'Macbook', description: 'Core i7, 16GB RAM'},
-//	{id: 2, name: 'Sony DMX100', description: '<h5>Caractéristiques techniques Descriptif</h5> Type Console Mixage Connections Voies Mono 56 Entrées Mono 24 Entrées Stéréo 18 (Stéréo, 8 Bus, 8 Aux.), 6 entrées/sorties AES/EBU plus wordclock Auxiliaires	8 (dont 5/6 et 7/8 anlogues ou AES/EBU) Connectique	XLR-3, AES/EBU, MIDI (RS 422) Insert 12 USB	Oui Données Physiques Dimensions 1197 x 690 x 267mm ( l x P x H) Poids 55Kg Général Particularités écran tactile (800X600) couleur Spécification Audio Bus 8 Fader 24 faders motorisés sensitifs (Définition 10 bits soit 1024 pas!) Spécification Audionumériques Matrices	Interne permettant un routing quasi illimité Traitement Type Correcteur	Eq 4 bandes,dynamique'}
-//]
+StudioSabab.Material.FIXTURES = [
+	{id: 1, name: 'Macbook', description: 'Core i7, 16GB RAM'},
+	{id: 2, name: 'Sony DMX100', description: 'Description'}
+]
+
+StudioSabab.Artist.FIXTURES = [
+	{id: 1, first_name: 'Artist1', last_name: 'LastName1', description: 'Artist id 1', albums: [1,2]},
+	{id: 2, first_name: 'Artist2', last_name: 'LastName2', description: 'Artist id 2', albums: [2,1]}
+]
+
+StudioSabab.Album.FIXTURES = [
+	{id: 1, title: 'Album1', description: 'Album 1 description', artist: 1},
+	{id: 2, title: 'Album2', description: 'Album 2 description', artist: 2}
+]

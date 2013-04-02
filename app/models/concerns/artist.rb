@@ -5,5 +5,5 @@ class Artist < ActiveRecord::Base
     
     attr_accessible :first_name, :description, :last_name
   
-    #has_many :Albums, :dependent => :destroy 
+    has_many :Albums, :dependent => :destroy 
 end
