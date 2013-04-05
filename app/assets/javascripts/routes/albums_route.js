@@ -1,5 +1,9 @@
 StudioSabab.AlbumsRoute = Ember.Route.extend({
   	model: function() {
-    	return StudioSabab.Album.find();
+  	    albums = StudioSabab.Album.all();
+  	    if( Ember.isEmpty()){
+    	    StudioSabab.Album.find();
+    	}
+    	return albums;
   	}
 });

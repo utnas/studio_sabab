@@ -1,6 +1,10 @@
 StudioSabab.MaterialsRoute = Ember.Route.extend({
   	model: function() {
-    	return StudioSabab.Material.find();
+  	    materials = StudioSabab.Material.all();
+  	    if( Ember.isEmpty(materials)){
+    	    StudioSabab.Material.find();
+    	}
+    	return materials;
   	}
 });
 
