@@ -6,7 +6,7 @@ class MaterialsController < ApplicationController
       @materials = Material.all
 
       respond_to do |format|
-        format.html # index.html.erb
+        #format.html # index.html.erb
         format.json { render json: @materials }
       end
     end

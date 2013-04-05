@@ -5,18 +5,19 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-albums =  Album.create([
-{title: 'Encore et toujours', description: 'Nouvel album du poète Simaro'}
 
-])
+# Artists
+artist1 = Artist.create(first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro description")
 
-Artist.create([
-{first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro description"},# albums: albums.first}, 
-{first_name: 'Reddy', last_name: 'Amisi', description: "Reddy description"}, # albums: albums.first},
-{first_name: 'Jean', last_name: 'Goubald', description: 'Description Goubald'}, #albums: albums.last},
-{first_name: 'Jossart', last_name: 'Nyoka-Longo', description: 'Zaïko Langa-Langa Description Zaïko'},# albums: albums.first}
-])
+artist1.albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
 
+artist2 = Artist.create(first_name: 'Reddy', last_name: 'Amisi', description: "Reddy description")
+
+artist2.albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
+
+
+
+# Material
 Material.create([
     {name: 'MacBook', description: " <h3>Processeurs</h3>
 						<ul>

@@ -3,7 +3,8 @@ StudioSabab.Material = DS.Model.extend({
 	description: DS.attr("string")
 });
 
-StudioSabab.Material.FIXTURES = [
+
+/*StudioSabab.Material.FIXTURES = [
 	{id: 1, name: 'Macbook', description: 'Core i7, 16GB RAM'},
 	{id: 2, name: 'Sony DMX100', description: 'Description'}
 ]
@@ -16,4 +17,4 @@ StudioSabab.Artist.FIXTURES = [
 StudioSabab.Album.FIXTURES = [
 	{id: 1, title: 'Album1', description: 'Album 1 description', artist: 1},
 	{id: 2, title: 'Album2', description: 'Album 2 description', artist: 2}
-]
+]*/

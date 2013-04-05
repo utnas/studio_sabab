@@ -1,8 +1,17 @@
+StudioSabab.Adapter = DS.RESTAdapter.extend({
+    url: 'http://localhost:3004'
+});
+
+StudioSabab.Adapter.map('StudioSabab.Artist', {
+    albums: {
+        embedded: true
+    }
+});
+
+
+
 StudioSabab.Store = DS.Store.extend({
   revision: 12,
-  adapter: DS.FixtureAdapter.create()
-  /*adapter: DS.RESTAdapter.extend({
-    url: 'http://localhost:3004'
-  })
-  */
+  //adapter: DS.FixtureAdapter.create()
+  adapter: StudioSabab.Adapter
 });
