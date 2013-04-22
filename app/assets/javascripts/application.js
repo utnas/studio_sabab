@@ -20,3 +20,19 @@
 //= require studio_sabab
 //= require_tree .
 StudioSabab = Ember.Application.create();
+
+$(function(){
+	$('.tlt').textillate({ 
+		loop: true, 
+		autoStart: true, 
+		in: {effect: 'fadeInLeftBig'}, 
+		out: {effect: 'fadeOutDown', delayScale: 1.5, shuffle: true,}
+	});
+	$('.pics').glisse({
+        changeSpeed: 550, 
+        speed: 500,
+        effect:'fade',
+        fullscreen: false,
+        disablindRightClick: true,
+    }); 
+});

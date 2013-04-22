@@ -1,13 +1,13 @@
-<div class="span3">
+<div class="span4">
   <div class="well sidebar-nav">
     <ul class="nav nav-list">
-      <li class="nav-header"><h5>Nos Matériels</h5></li>
+      <li class="nav-header">Nos Matériels</li>
       {{#each model}}
 		{{#linkTo 'material' this}}{{name}}{{/linkTo}}<br/>
       {{/each}}
     </ul>
   </div>
 </div>
-<div class="span8">
+<div class="span7">
   {{outlet}}
 </div>

@@ -1,13 +1,43 @@
-<div class="navbar">
-   <div class="navbar-inner">
-       {{#linkTo 'index' classNames="brand"}}Studio Sabab{{/linkTo}}
-      <ul class="nav">
-        <li>{{#linkTo 'materials'}}Matériels{{/linkTo}}</li>
-      </ul>
-      <ul class="nav">
-        <li>{{#linkTo 'artists'}}Artistes{{/linkTo}}</li>
-      </ul>
-   </div>
-   </div>
+<div class="container">
+    <div class="topbar">
+        <div class="tlt">
+            <ul class="texts" style="display: none">
+                <li>STUDIO SABAB - KINSHASA</li>
+                <li>Le premier Studio d'enregistrement et de mixage à Kinshasa</li>
+            </ul>
+        </div>
+    </div>
+    <div class="navbar">
+        <header role="banner">
+                <div class="wrap relative clearfix">
+
+                    <aside class="left">   
+                        <ul class-"no-list">
+                            <li >{{#linkTo 'index' classNames='largeFont'}}<i class="icon-home icon-white"></i>Studio Sabab{{/linkTo}}</li>
+                        </ul>                                             
+                    </aside>
+
+                    <nav id="menu" class="antennabold middle">
+
+                        <ul class="no-list clearfix">
+
+                            <li>{{#linkTo 'materials'}}<i class="icon-headphones icon-white"></i>Matériels{{/linkTo}}</li>
+                            <li>{{#linkTo 'artists'}}<i class="icon-user icon-white"></i>Artistes{{/linkTo}}</li>
+                            <li>{{#linkTo 'materials'}}<i class="icon-user icon-white"></i>Nos Musiciens{{/linkTo}}</li>
+                            <li>{{#linkTo 'artists'}}<i class="icon-user icon-white"></i>Projets{{/linkTo}}</li>
+                        </ul>
+                    </nav>
+                        
+                    <aside class="right clearfix">   
+                                                                    
+                        
+                    </aside>
+                        
+                </div>           
+        </header>
+    </div> 
+    {{outlet}}
+    &nbsp;
 </div>
-{{outlet}}
+
+
