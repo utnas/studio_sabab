@@ -8,6 +8,3 @@
 //= require_tree ./lib
 //= require ./router
 //= require_self
-
-
-//StudioSabab.initialize() => Deprecated

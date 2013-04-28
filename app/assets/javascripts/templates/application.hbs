@@ -20,15 +20,15 @@
                         <li>
                             {{#linkTo 'index' classNames='largeFont'}}<i class="icon-home icon-black"></i>&nbsp;Studio Sabab{{/linkTo}}
                         </li>
-                        <li>{{#linkTo 'materials'}}<i class="icon-headphones icon-black"></i>&nbsp;Collaboration{{/linkTo}}</li>
-                        <li>{{#linkTo 'artists'}}<i class="icon-user icon-black"></i>&nbsp;Artistes{{/linkTo}}</li>
-                        <li>{{#linkTo 'materials'}}<i class="icon-user icon-black"></i>&nbsp;Nos Musiciens{{/linkTo}}</li>
-                        <li>{{#linkTo 'artists'}}<i class="icon-user icon-black"></i>&nbsp;Projets{{/linkTo}}</li>
+                        <li>{{#linkTo 'materials'}}<i class="icon-headphones icon-black"></i>&nbsp;Matériels{{/linkTo}}</li>
+                        <li>{{#linkTo 'artists'}}<i class=" icon-music icon-black"></i>&nbsp;Références{{/linkTo}}</li>
+                        <li>{{#linkTo 'materials'}}<i class="icon-lock icon-black"></i>&nbsp;Partenaires{{/linkTo}}</li>
+                        <li>{{#linkTo 'artists'}}<i class="icon-envelope icon-black"></i>&nbsp;Contact{{/linkTo}}</li>
                     </ul>
                     <ul class="nav pull-right">
                         <li class="disabled">
                             <a class="brand"> 
-                                <div class="black-bp-text">Studio Sabab</div>
+                                <div class="black-bp-text">Studio Sabab - Kinshasa</div>
                             </a>
                         </li>
                     </ul>
@@ -36,7 +36,13 @@
             </div>
         </div>
     </div>
-    {{outlet}}
+    <div class="content-font">
+        {{outlet}}
+    </div>
+    <hr>
+    <div class="footer">
+         © Studio Sabab 2013 - developped and Designed by Dooley
+    </div>
 </div>
 
 

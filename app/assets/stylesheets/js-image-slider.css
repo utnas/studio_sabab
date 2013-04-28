@@ -3,10 +3,11 @@
 /*slider frame*/
 #sliderFrame 
 {
+    overflow-y: scroll;
     width:auto;
-    height: 406px;
+    height: auto;
     /*margin:0 auto; /*remove the "margin:0 auto;" if you want to align the whole slider to the left side*/
-    padding:10px;
+    padding: 10px;
     box-shadow: 0 0 5px #BBB;border:1px solid #CCC; background-color:#FFF;
 }
      
