@@ -8,8 +8,6 @@ StudioSabab.Adapter.map('StudioSabab.Artist', {
     }
 });
 
-
-
 StudioSabab.Store = DS.Store.extend({
   revision: 12,
   //adapter: DS.FixtureAdapter.create()

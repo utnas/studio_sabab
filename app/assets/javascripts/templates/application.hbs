@@ -8,36 +8,35 @@
         </div>
     </div>
     <div class="navbar">
-        <header role="banner">
-                <div class="wrap relative clearfix">
-
-                    <aside class="left">   
-                        <ul class-"no-list">
-                            <li >{{#linkTo 'index' classNames='largeFont'}}<i class="icon-home icon-white"></i>Studio Sabab{{/linkTo}}</li>
-                        </ul>                                             
-                    </aside>
-
-                    <nav id="menu" class="antennabold middle">
-
-                        <ul class="no-list clearfix">
-
-                            <li>{{#linkTo 'materials'}}<i class="icon-headphones icon-white"></i>Matériels{{/linkTo}}</li>
-                            <li>{{#linkTo 'artists'}}<i class="icon-user icon-white"></i>Artistes{{/linkTo}}</li>
-                            <li>{{#linkTo 'materials'}}<i class="icon-user icon-white"></i>Nos Musiciens{{/linkTo}}</li>
-                            <li>{{#linkTo 'artists'}}<i class="icon-user icon-white"></i>Projets{{/linkTo}}</li>
-                        </ul>
-                    </nav>
-                        
-                    <aside class="right clearfix">   
-                                                                    
-                        
-                    </aside>
-                        
-                </div>           
-        </header>
-    </div> 
+        <div class="navbar-inner">
+            <div class="container" style="width: auto;">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="nav-collapse">
+                    <ul class="nav black-bp-text">
+                        <li>
+                            {{#linkTo 'index' classNames='largeFont'}}<i class="icon-home icon-black"></i>&nbsp;Studio Sabab{{/linkTo}}
+                        </li>
+                        <li>{{#linkTo 'materials'}}<i class="icon-headphones icon-black"></i>&nbsp;Collaboration{{/linkTo}}</li>
+                        <li>{{#linkTo 'artists'}}<i class="icon-user icon-black"></i>&nbsp;Artistes{{/linkTo}}</li>
+                        <li>{{#linkTo 'materials'}}<i class="icon-user icon-black"></i>&nbsp;Nos Musiciens{{/linkTo}}</li>
+                        <li>{{#linkTo 'artists'}}<i class="icon-user icon-black"></i>&nbsp;Projets{{/linkTo}}</li>
+                    </ul>
+                    <ul class="nav pull-right">
+                        <li class="disabled">
+                            <a class="brand"> 
+                                <div class="black-bp-text">Studio Sabab</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     {{outlet}}
-    &nbsp;
 </div>
 
 

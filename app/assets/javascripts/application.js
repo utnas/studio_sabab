@@ -28,11 +28,7 @@ $(function(){
 		in: {effect: 'fadeInLeftBig'}, 
 		out: {effect: 'fadeOutDown', delayScale: 1.5, shuffle: true,}
 	});
-	$('.pics').glisse({
-        changeSpeed: 550, 
-        speed: 500,
-        effect:'fade',
-        fullscreen: false,
-        disablindRightClick: true,
-    }); 
+    imageSlider.thumbnailPreview(function (thumbIndex) { 
+        return "<img src='img/StudioSabab" + (thumbIndex + 1) + ".jpg' style='width:70px;height:44px;' />"; 
+    });
 });
