@@ -7,9 +7,15 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 # Artists
+Artist.create(first_name: 'Papa', last_name: 'Wemba', description: "Papa Wemba description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
 Artist.create(first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
+Artist.create(first_name: 'Ndombe', last_name: 'Opetum', description: "Ndombe description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
 Artist.create(first_name: 'Reddy', last_name: 'Amisi', description: "Reddy description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
+Artist.create(first_name: 'JB', last_name: 'Mpiana', description: "Jean-Bedèle Mpiana description").albums.create(title: 'Chanson Primus', description: 'Nouvel album du poète Simaro')
 Artist.create(first_name: 'Jossart', last_name: 'Nyoka-Longo', description: "Zaîko Langa-Langa Nkolo Mboka").albums.create(title: 'Bande Annonce', description: 'Vimbaaaaaah Pschhhhhttt !!!!!')
+Artist.create(first_name: 'Jean-Goubald', last_name: 'Kalala', description: "Jean Kalala Midibu, s'est révélé au public congolais en 2005 avec son album « Bombe Anatomique »").albums.create(title: 'Norme', description: 'Le deuxième album solo de l\'artiste Jean-Goubald. Qui a connu la participation de Lokua Kanza')
+Artist.create(first_name: 'Grand-Père', last_name: 'Bozi Boziana', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
+Artist.create(first_name: 'Nzuzi', last_name: 'Makambo', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
 
 
 
