@@ -123,8 +123,6 @@ default width = 800/5 = 160px
 .footer{
     font-family: "arial";
     text-align: center;
-    position: relative;
-    margin-left: 30px;
     font-size: 10px;
     color: #676767;
 }
