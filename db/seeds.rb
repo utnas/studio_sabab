@@ -58,7 +58,7 @@ Material.create([
 								</ul>
 							</li>
 						</ul>"},
-	{name: 'MacBook', description: "<img class=\"photos\" src=\"/img/materials/macpro-white.jpeg\">
+	{name: 'Mac Pro', description: "<img class=\"photos\" src=\"/img/materials/macpro-white.jpeg\">
 		<hr>
     	<h3>Processeurs</h3>
 						<ul>
