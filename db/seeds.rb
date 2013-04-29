@@ -15,7 +15,8 @@ Artist.create(first_name: 'Jossart', last_name: 'Nyoka-Longo', description: "Za�
 
 # Material
 Material.create([
-    {name: 'Console Sony DMX 100', description: "<img class=\"photos\" src=\"/img/materials/dmx-r100.jpg\" alt=\"Description\" width=\"570\" height=\"180\" >
+    {name: 'Console Sony DMX 100', description: "<img class=\"photos\" src=\"/img/materials/dmx-r100.jpg\" width=\"670\" height=\"200\" >
+    	<hr>
     	<h3>Caractéristiques techniques</h3><ul><li>
 								<strong>Descriptif Connections</strong>
 								<ul>
@@ -57,7 +58,8 @@ Material.create([
 								</ul>
 							</li>
 						</ul>"},
-	{name: 'MacBook', description: "<img class=\"photos\" src=\"/img/materials/macpro-white.jpeg\" alt=\"Description\">
+	{name: 'MacBook', description: "<img class=\"photos\" src=\"/img/materials/macpro-white.jpeg\">
+		<hr>
     	<h3>Processeurs</h3>
 						<ul>
 							<li>
@@ -89,8 +91,12 @@ Material.create([
     {name: 'Logiciels', description: "<img class=\"photos\" src=\"/img/materials/protools-hd.jpeg\"><hr>
     	<h3>Capture de son</h3><ul><li><strong>Protools HD</strong>: <br/>Le système Pro Tools HD Native comprend le logiciel Pro Tools HD et, suivant le modèle, l'interface externe Thunderbolt ou la carte interne Native PCIe. Ce système ne possède pas de processeur autonome, et utilise le processeur de l'ordinateur hôte. Il s'agît du premier système Pro Tools HD basé sur hôte.
     	</li><li><strong>Logic Pro</strong>:<br/>Des centaines de canaux en entrée. Des dizaines de groupes de mixage. Une pléiade d'envois et d'auxiliaires. La création dynamique de tranches de console. Une gestion des pistes et une automation performantes. Et des capacités Surround complètes. Logic Pro réunit le tout au sein d'une présentation simple et personnalisable qui vous permet de vous consacrer à chaque aspect de votre projet.
-    	</li><li>Soundtrack</li>
     	<li><strong>Cubase 7:</strong><br/>Orné de fonctionnalités musicales plus fournies que jamais, Cubase 7 offre une expérience de production créative véritablement incomparable. Brillantissime avec une console de mixage entièrement remaniée, une nouvelle piste d'accords complétée par l'aide à la gestion des accords, une version plus avancée de VariAudio, un plus grand nombre d'instruments de pointe et une foule d'améliorations. Toutes ces nouveautés rendent Cubase 7 plus puissant et plus rapide dans tous les domaines.
     	</li>
+    	</ul>"},
+    {name: 'Ecoutes', description: "<img class=\"photos\" src=\"/img/materials/yamaha-ns10.jpeg\"><hr>
+    	<h3>Systèmes d'écoutes</h3><ul><li><strong>Yamaha NS-10M STUDIO</strong>: <br/>Type :
+Enceinte de Monitoring Passive 2 Voies. Puissance : 60 Watts/8 Ohms. Caractéristiques Audio : Réponse en Fréquence : 60 Hz à 20 kHz.
+Sensibilité (1W @ 1m) : 90 dB.</li>
     	</ul>"}
 ])
