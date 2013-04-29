@@ -15,35 +15,6 @@ Artist.create(first_name: 'Jossart', last_name: 'Nyoka-Longo', description: "Za�
 
 # Material
 Material.create([
-    {name: 'MacBook', description: "<img class=\"photos\" src=\"/img/materials/macpro-white.jpeg\" alt=\"Description\">
-    	<h3>Processeurs</h3>
-						<ul>
-							<li>
-							    <strong>Quad-core (configuration standard)</strong>
-							    <ul>
-									<li>Un processeur Quad-Core Intel Xeon W3565 à 3,2 GHz </li>
-									<li>8 Mo de cache N3 entièrement partagé par processeur</li>
-									<li>Performances dynamiques Turbo Boost jusqu'à 3,46 GHz</li>
-									<li>Technologie Hyper-Threading fournissant jusqu'à 8 cœurs virtuels</li>
-								</ul>
-							</li>
-						</ul>
-						<h3>Mémoire</h3>
-						<ul>
-							<li><strong>Systèmes biprocesseurs</strong></li>
-								<ul>
-									<li>Systèmes à 2,4 GHz : SDRAM DDR3 ECC à 1 333 MHz</li>
-									<li>16 Go de mémoire RAM mémoire avec des modules SODIMM de 8 Go</li>
-								</ul>
-							</li>
-							<li><strong>Disque dur</strong></li>
-								<ul>
-									<li>1 disque de 1 To</li>
-									<li>1 disque dur de 500 Go</li>
-									<li> Système de sauvegarde journalier</li>
-								</ul>
-							</li>
-						</ul>"},
     {name: 'Console Sony DMX 100', description: "<img class=\"photos\" src=\"/img/materials/dmx-r100.jpg\" alt=\"Description\" width=\"570\" height=\"180\" >
     	<h3>Caractéristiques techniques</h3><ul><li>
 								<strong>Descriptif Connections</strong>
@@ -86,6 +57,40 @@ Material.create([
 								</ul>
 							</li>
 						</ul>"},
+	{name: 'MacBook', description: "<img class=\"photos\" src=\"/img/materials/macpro-white.jpeg\" alt=\"Description\">
+    	<h3>Processeurs</h3>
+						<ul>
+							<li>
+							    <strong>Quad-core (configuration standard)</strong>
+							    <ul>
+									<li>Un processeur Quad-Core Intel Xeon W3565 à 3,2 GHz </li>
+									<li>8 Mo de cache N3 entièrement partagé par processeur</li>
+									<li>Performances dynamiques Turbo Boost jusqu'à 3,46 GHz</li>
+									<li>Technologie Hyper-Threading fournissant jusqu'à 8 cœurs virtuels</li>
+								</ul>
+							</li>
+						</ul>
+						<h3>Mémoire</h3>
+						<ul>
+							<li><strong>Systèmes biprocesseurs</strong></li>
+								<ul>
+									<li>Systèmes à 2,4 GHz : SDRAM DDR3 ECC à 1 333 MHz</li>
+									<li>16 Go de mémoire RAM mémoire avec des modules SODIMM de 8 Go</li>
+								</ul>
+							</li>
+							<li><strong>Disque dur</strong></li>
+								<ul>
+									<li>1 disque de 1 To</li>
+									<li>1 disque dur de 500 Go</li>
+									<li> Système de sauvegarde journalier</li>
+								</ul>
+							</li>
+						</ul>"},
     {name: 'Logiciels', description: "<img class=\"photos\" src=\"/img/materials/protools-hd.jpeg\"><hr>
-    	<h3>Capture de son</h3><ul><li>Protools HD</li><li>Logic Pro</li><li>Soundtrack</li></ul><h3>Mixage</h3><ul><li>Cubase</li></ul>"}
+    	<h3>Capture de son</h3><ul><li><strong>Protools HD</strong>: <br/>Le système Pro Tools HD Native comprend le logiciel Pro Tools HD et, suivant le modèle, l'interface externe Thunderbolt ou la carte interne Native PCIe. Ce système ne possède pas de processeur autonome, et utilise le processeur de l'ordinateur hôte. Il s'agît du premier système Pro Tools HD basé sur hôte.
+    	</li><li><strong>Logic Pro</strong>:<br/>Des centaines de canaux en entrée. Des dizaines de groupes de mixage. Une pléiade d'envois et d'auxiliaires. La création dynamique de tranches de console. Une gestion des pistes et une automation performantes. Et des capacités Surround complètes. Logic Pro réunit le tout au sein d'une présentation simple et personnalisable qui vous permet de vous consacrer à chaque aspect de votre projet.
+    	</li><li>Soundtrack</li>
+    	<li><strong>Cubase 7:</strong><br/>Orné de fonctionnalités musicales plus fournies que jamais, Cubase 7 offre une expérience de production créative véritablement incomparable. Brillantissime avec une console de mixage entièrement remaniée, une nouvelle piste d'accords complétée par l'aide à la gestion des accords, une version plus avancée de VariAudio, un plus grand nombre d'instruments de pointe et une foule d'améliorations. Toutes ces nouveautés rendent Cubase 7 plus puissant et plus rapide dans tous les domaines.
+    	</li>
+    	</ul>"}
 ])
