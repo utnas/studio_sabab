@@ -7,19 +7,16 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 # Artists
-artist1 = Artist.create(first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro description")
-
-artist1.albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
-
-artist2 = Artist.create(first_name: 'Reddy', last_name: 'Amisi', description: "Reddy description")
-
-artist2.albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
+Artist.create(first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
+Artist.create(first_name: 'Reddy', last_name: 'Amisi', description: "Reddy description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
+Artist.create(first_name: 'Jossart', last_name: 'Nyoka-Longo', description: "Zaîko Langa-Langa Nkolo Mboka").albums.create(title: 'Bande Annonce', description: 'Vimbaaaaaah Pschhhhhttt !!!!!')
 
 
 
 # Material
 Material.create([
-    {name: 'MacBook', description: " <h3>Processeurs</h3>
+    {name: 'MacBook', description: "<img class=\"photos\" src=\"/img/materials/macpro-white.jpeg\" alt=\"Description\">
+    	<h3>Processeurs</h3>
 						<ul>
 							<li>
 							    <strong>Quad-core (configuration standard)</strong>
@@ -30,20 +27,6 @@ Material.create([
 									<li>Technologie Hyper-Threading fournissant jusqu'à 8 cœurs virtuels</li>
 								</ul>
 							</li>
-							<li>
-							    <strong>Microarchitecture Intel avancée</strong>
-								<ul>
-									<li>Contrôleur mémoire intégré</li>
-									<li>Moteur SIMD SSE4 128 bits</li>
-									<li>Chemins et registres de données 64 bits</li>
-									<li>Optimisée pour les économies d'énergie</li>
-								</ul>
-							</li>
-						</ul>
-						<h3>Connecteurs et audio</h3>
-						<ul>
-							<li>Quatre ports FireWire 800 (deux en façade, deux à l'arrière)</li>
-							<li>Audio multicanal via le port Mini DisplayPort</li>
 						</ul>
 						<h3>Mémoire</h3>
 						<ul>
@@ -61,7 +44,8 @@ Material.create([
 								</ul>
 							</li>
 						</ul>"},
-    {name: 'Console Sony DMX 100', description: "<h3>Caractéristiques techniques</h3><ul><li>
+    {name: 'Console Sony DMX 100', description: "<img class=\"photos\" src=\"/img/materials/dmx-r100.jpg\" alt=\"Description\" width=\"570\" height=\"180\" >
+    	<h3>Caractéristiques techniques</h3><ul><li>
 								<strong>Descriptif Connections</strong>
 								<ul>
 									<li><strong>Voies Mono:&nbsp;</strong>56</li>
@@ -102,5 +86,6 @@ Material.create([
 								</ul>
 							</li>
 						</ul>"},
-    {name: 'Logiciels', description: "<h3>Capture de son</h3><ul><li>Protools HD</li><li>Logic Pro</li><li>Soundtrack</li></ul><h3>Mixage</h3><ul><li>Cubase</li></ul>"}
+    {name: 'Logiciels', description: "<img class=\"photos\" src=\"/img/materials/protools-hd.jpeg\"><hr><img class=\"photos\" src=\"/img/materials/cubase.jpeg\">
+    	<h3>Capture de son</h3><ul><li>Protools HD</li><li>Logic Pro</li><li>Soundtrack</li></ul><h3>Mixage</h3><ul><li>Cubase</li></ul>"}
 ])
