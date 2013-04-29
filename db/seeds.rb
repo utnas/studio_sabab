@@ -86,6 +86,6 @@ Material.create([
 								</ul>
 							</li>
 						</ul>"},
-    {name: 'Logiciels', description: "<img class=\"photos\" src=\"/img/materials/protools-hd.jpeg\"><hr><img class=\"photos\" src=\"/img/materials/cubase.jpeg\">
+    {name: 'Logiciels', description: "<img class=\"photos\" src=\"/img/materials/protools-hd.jpeg\"><hr>
     	<h3>Capture de son</h3><ul><li>Protools HD</li><li>Logic Pro</li><li>Soundtrack</li></ul><h3>Mixage</h3><ul><li>Cubase</li></ul>"}
 ])
