@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 # Artists
-Artist.create(first_name: 'Papa', last_name: 'Wemba', description: "Papa Wemba description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
+Artist.create(first_name: 'Papa', last_name: 'Wemba', description: "Papa Wemba est un chanteur, compositeur et acteur congolais, un des artistes-musiciens africains les plus populaires depuis plusieurs années.").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
 Artist.create(first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
 Artist.create(first_name: 'Ndombe', last_name: 'Opetum', description: "Ndombe description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
 Artist.create(first_name: 'Reddy', last_name: 'Amisi', description: "Reddy description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
