@@ -9,6 +9,9 @@ body {
     padding-left: 110px;
     padding-right: 110px;
 }
+.right-position{
+	float: right;
+}
 .centering{
     text-align: center;
 }
@@ -135,5 +138,10 @@ default width = 800/5 = 160px
 	margin:2px;
 	font-size: 16px;
 	text-align: center;
+}
+.contact-font{
+	color:#06075b;
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-size: 17px;
 }
 

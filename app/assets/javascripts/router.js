@@ -10,5 +10,5 @@ StudioSabab.Router.map(function(){
 	this.resource('partners', function() {
 		this.resource('partner', {path: ':partner_id'});
 	});
-	this.resource('about');
+	this.resource('contacts');
 });
