@@ -24,6 +24,9 @@ Artist.create(first_name: 'Franck', last_name: 'Mulaja', description: "Musicien 
 Artist.create(first_name: 'Beyou', last_name: 'Ciel', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
 Artist.create(first_name: 'Canta', last_name: 'Niboma', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
 
+# Partners
+Partner.create(firstName: 'Christophe', lastName: 'Darlot', activity: 'Ingénieur du Son', location: 'Besançon - France', description: 'Blabla')
+Partner.create(firstName: 'Doris', lastName: 'beya', activity: 'Ingénieur du Son', location: 'Kinshasa - R.D. Congo', description: 'Blabla')
 
 # Material
 Material.create([

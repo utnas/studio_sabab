@@ -7,5 +7,8 @@ StudioSabab.Router.map(function(){
 			this.resource('album', {path: ':album_id'});
 		});
 	});
+	this.resource('partners', function() {
+		this.resource('partner', {path: ':partner_id'});
+	});
 	this.resource('about');
 });

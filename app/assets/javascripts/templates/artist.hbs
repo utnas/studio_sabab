@@ -1,17 +1,17 @@
 <h1>
 {{first_name}} {{last_name}}
-</h1>
-<hr>
+</h1> 
 {{markdown description}}
+
 <hr>
+<h4>Albums enregistrés au Studio Sabab:</h4>
 {{#each album in albums}}
 	<ul>
 		<li>
-			<h4>Titre de l'album: {{album.title}}</h4>
+			<h5>Titre: {{album.title}}</h5>
 			<ul>
 				{{album.description}}
 			</ul>
 		</li>
 	</ul>
 {{/each}}
-<hr>

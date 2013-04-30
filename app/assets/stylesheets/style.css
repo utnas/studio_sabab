@@ -10,7 +10,7 @@ body {
     padding-right: 110px;
 }
 .centering{
-    float: right;
+    text-align: center;
 }
 .content-font{
     color: black;
@@ -125,5 +125,15 @@ default width = 800/5 = 160px
     text-align: center;
     font-size: 10px;
     color: #676767;
+}
+.headline{
+	color:#76879b;
+	font-weight: 100; margin-bottom: 0;
+
+	font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+	font-weight: normal;
+	margin:2px;
+	font-size: 16px;
+	text-align: center;
 }
 

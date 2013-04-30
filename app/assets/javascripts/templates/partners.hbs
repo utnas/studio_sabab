@@ -1,0 +1,15 @@
+<div id="sliderFrame">
+    <div class="span3">
+      <div class="well sidebar-nav">
+        <ul class="nav nav-list">
+          <li class="nav-header">Nos Partenaires</li>
+          {{#each model}}
+            {{#linkTo 'partner' this}}{{firstName}} {{lastName}}{{/linkTo}}<br/>
+          {{/each}}
+        </ul>
+      </div>
+    </div>
+    <div class="span9">
+      {{outlet}}
+    </div>
+</div>

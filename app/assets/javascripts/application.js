@@ -19,7 +19,9 @@
 //= require_self
 //= require studio_sabab
 //= require_tree .
-StudioSabab = Ember.Application.create();
+StudioSabab = Ember.Application.create({
+	 LOG_TRANSITIONS: true
+});
 
 $(function(){
 	$('.tlt').textillate({ 
