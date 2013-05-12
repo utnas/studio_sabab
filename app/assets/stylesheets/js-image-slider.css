@@ -33,7 +33,7 @@
 }
 
 #slider img {
-	position:absolute;
+	position:relative;
 	border:none;
 	visibility:hidden;
 }
