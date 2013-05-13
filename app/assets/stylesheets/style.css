@@ -8,6 +8,10 @@ body {
     padding-top: 10px;
     padding-left: 110px;
     padding-right: 110px;
+    text-shadow: 0 0 .02em white, .05em .05em .02em rgba(0,0,0,.15);
+}
+.navbar{
+	margin-bottom: 5px;
 }
 .right-position{
 	float: right;
