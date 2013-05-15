@@ -1,3 +1,3 @@
 StudioSabab.PartnersController = Ember.ArrayController.extend({
-	sortProperties: ['fistName', 'lastName','activity','location','description'],
+	sortProperties: ['fist_name', 'last_name','activity','location','description'],
 });

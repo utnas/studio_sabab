@@ -37,8 +37,8 @@ ActiveRecord::Schema.define(version: 20130429180442) do
   end
 
   create_table "partners", force: true do |t|
-    t.string   "firstName"
-    t.string   "lastName"
+    t.string   "first_name"
+    t.string   "last_name"
     t.string   "activity"
     t.string   "location"
     t.text     "description"
