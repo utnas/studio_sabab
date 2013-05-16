@@ -25,7 +25,8 @@ Artist.create(first_name: 'Beyou', last_name: 'Ciel', description: "Musicien con
 Artist.create(first_name: 'Canta', last_name: 'Niboma', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
 
 # Partners
-Partner.create(first_name: 'Christophe', last_name: 'Darlot', activity: 'Ingénieur du Son', location: 'Besançon - France', description: 'Blabla', picture: '/img/partners/christopheDarlot.jpg')
+Partner.create(first_name: 'Christophe', last_name: 'Darlot', activity: 'Ingénieur du Son', location: 'Besançon - France', description: 'L\'ingénieur du son, réalisateur, arrangeur et musicien est docteur en informatique. Il possède un studio d\'enregistrement et collabore avec Aldebert, artiste bisontin de chanson française. Il l’accompagne comme musicien sur scène (Claviers/Accordéon). "En studio, il réalise, mixe ses albums et arrange ou co-arrange la plupart de ses titres. Cette collaboration donnera naissance à 5 albums, un DVD et l\'emmènera sur les routes pour plus de 600 concerts en France et à l’étranger".
+Christophe Darlot a collaboré, entre autres, avec : Aldebert - Amélie les Crayons - Anne Sylvestre - Cali - Clarika - Elodie Frégé - Les ogres de Barback - Marcel Amont - Maxime le Forestier - Renan Luce - Steve Warring - Tiéfaine - Tram des Balkans', picture: '/img/partners/christopheDarlot.jpg')
 Partner.create(first_name: 'Doris', last_name: 'Beya', activity: 'Ingénieur du Son', location: 'Kinshasa - R.D. Congo', description: 'Blabla', picture: '/img/partners/dorisBeya.jpg')
 
 # Material

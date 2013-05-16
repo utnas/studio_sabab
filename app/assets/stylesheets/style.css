@@ -16,6 +16,22 @@ body {
 .right-position{
 	float: right;
 }
+
+.span9{
+	margin-right: -5px;
+}
+
+.thumbnails{
+	width: 790px;
+}
+
+.span-custom{
+	width: 290px;
+}
+
+.right-position h3{
+	color: #08c;
+}
 .centering{
     text-align: center;
 }

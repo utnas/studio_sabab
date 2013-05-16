@@ -1,16 +1,14 @@
 
-<div id="thumbs-partener ">
-	<div class="thumb-partner">
-		<div class="frame-partner">
-        	<img {{bindAttr src='picture'}} width="499px" height="356px" border="1px" solid="#DDD"/>
-        </div>
-        <div class="thumb-content">
-        	<p>{{first_name}} {{last_name}}</p>
-        	
-			{{description}}
-			<p>Rôle: {{activity}}</p>
-        	<p>Localisation: {{location}}<p/>
-        </div>
-        <div style="clear:both;"></div>
-    </div>
-</div>
+<ul class="thumbnails">
+  	<li class="span6">
+    	<div class="thumbnail">
+      		<img {{bindAttr src='picture'}} alt="ALT here"/>
+    	</div>
+  	</li>
+  	<div class="right-position span-custom">
+  		<h3>{{first_name}} {{last_name}}</h3>
+  		<hr>
+      	<p><h4>{{activity}} basé à {{location}}</h4><p/>
+      	<a href="#" id="pop" class="btn btn-info" rel="popover" data-content="C'est tout simple à 	faire !" data-original-title="Test du Popover"> Cliquez pour plus d'informations sur {{first_name}} {{last_name}}</a> 
+	</div>
+</ul>

@@ -33,4 +33,6 @@ $(function(){
     imageSlider.thumbnailPreview(function (thumbIndex) { 
         return "<img src='img/StudioSabab" + (thumbIndex + 1) + ".jpg' style='width:70px;height:44px;' />"; 
     });
+
+   	$("#pop").popover({placement:'bottom', trigger:'hover'}); 
 });
