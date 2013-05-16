@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 20130429180442) do
     t.string   "activity"
     t.string   "location"
     t.text     "description"
+    t.string   "picture"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

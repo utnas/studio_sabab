@@ -3,9 +3,11 @@
       <div class="well sidebar-nav">
         <ul class="nav nav-list">
           <li class="nav-header">Nos Partenaires</li>
+          <h5>
           {{#each model}}
             {{#linkTo 'partner' this}} {{first_name}} {{last_name}}{{/linkTo}}<br/>
           {{/each}}
+          </h5>
         </ul>
       </div>
     </div>

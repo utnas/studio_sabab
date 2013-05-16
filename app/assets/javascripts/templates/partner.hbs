@@ -1,5 +1,16 @@
-<h3>{{first_name}} {{last_name}}</h3>
-<hr>
-Rôle: {{activity}}<br/>
-Localisation: 	{{location}}<br/>
-{{description}}
+
+<div id="thumbs-partener ">
+	<div class="thumb-partner">
+		<div class="frame-partner">
+        	<img {{bindAttr src='picture'}} width="499px" height="356px" border="1px" solid="#DDD"/>
+        </div>
+        <div class="thumb-content">
+        	<p>{{first_name}} {{last_name}}</p>
+        	
+			{{description}}
+			<p>Rôle: {{activity}}</p>
+        	<p>Localisation: {{location}}<p/>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+</div>

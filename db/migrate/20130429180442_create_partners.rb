@@ -6,6 +6,7 @@ class CreatePartners < ActiveRecord::Migration
       t.string   :activity
       t.string   :location
       t.text     :description
+      t.string   :picture
 
       t.timestamps
     end

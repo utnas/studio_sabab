@@ -115,6 +115,37 @@ div.scroll-thumb{
 #thumbs .thumb-content p {font-weight:bold; color:#BF5D9B; margin:0 0 3px;padding:0;}
 #thumbs .thumb-on .thumb-content p {color:#BB0000;}
 
+/*thumb partners*/
+#thumbs-partener 
+{
+    float:right;
+    margin-left:auto;
+    width:auto;
+    font:normal 10px/13px Arial;
+    border-top:1px solid #CCC;
+    color:#666;
+}
+#thumbs-partener .thumb-partner 
+{
+    border:1px solid #CCC;
+    border-top:1px solid #FFF;
+    padding:11px 8px;
+    background:#EEE;
+}
+#thumbs-partener  .thumb-on-partener  
+{
+    background: #C5D2DB;
+}
+
+#thumbs-partener  img{border:1px solid #DDD; cursor:pointer; width:99px; height:56px;}
+
+#thumbs-partener  .frame-partner {float:left;padding:2px;border:1px solid #CCC;background:white;border-radius:3px;box-shadow:0 0 3px #BBB;font-size:0;line-height:0;}
+#thumbs-partener  .thumb-content {float:left;width:110px;padding-left:8px;}
+
+/* Captions in #thumbs .thumb-content */
+#thumbs-partener  .thumb-content p {font-weight:bold; color:#BF5D9B; margin:0 0 3px;padding:0;}
+#thumbs-partener  .thumb-on .thumb-content p {color:#BB00;}
+
 /* --------- Others ------- */
 #slider 
 {
