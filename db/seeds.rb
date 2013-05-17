@@ -138,7 +138,7 @@ Material.create([
     	<br/>
     	<li><strong>Logic Pro</strong>:<br/>Des centaines de canaux en entrée. Des dizaines de groupes de mixage. Une pléiade d'envois et d'auxiliaires. La création dynamique de tranches de console. Une gestion des pistes et une automation performantes. Et des capacités Surround complètes. Logic Pro réunit le tout au sein d'une présentation simple et personnalisable qui vous permet de vous consacrer à chaque aspect de votre projet.</li>
     	<br/>
-    	<li><strong>Cubase 7:</strong><br/>Orné de fonctionnalités musicales plus fournies que jamais, Cubase 7 offre une expérience de production créative véritablement incomparable. Brillantissime avec une console de mixage entièrement remaniée, une nouvelle piste d'accords complétée par l'aide à la gestion des accords, une version plus avancée de VariAudio, un plus grand nombre d'instruments de pointe et une foule d'améliorations. Toutes ces nouveautés rendent Cubase 7 plus puissant et plus rapide dans tous les domaines.</li>
+    	<li><strong>Cubase 5:</strong><br/>Orné de fonctionnalités musicales plus fournies que jamais, Cubase 5 offre une expérience de production créative véritablement incomparable. Brillantissime avec une console de mixage entièrement remaniée, une nouvelle piste d'accords complétée par l'aide à la gestion des accords, une version plus avancée de VariAudio, un plus grand nombre d'instruments de pointe et une foule d'améliorations. Toutes ces nouveautés rendent Cubase 5 plus puissant et plus rapide dans tous les domaines.</li>
     	</ul>"},
     {name: 'Ecoutes', description: "<img class=\"photos\" src=\"/img/materials/yamaha-ns10.jpeg\"><hr>
     	<h3>Systèmes d'écoutes</h3><ul><li><strong>Yamaha NS-10M STUDIO</strong>: <br/>Type :
