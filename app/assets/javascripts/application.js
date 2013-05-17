@@ -18,6 +18,7 @@
 //= require ember-data
 //= require_self
 //= require studio_sabab
+//= require bootstrap
 //= require_tree .
 StudioSabab = Ember.Application.create({
 	 LOG_TRANSITIONS: true
@@ -34,5 +35,5 @@ $(function(){
         return "<img src='img/StudioSabab" + (thumbIndex + 1) + ".jpg' style='width:70px;height:44px;' />"; 
     });
 
-   	$("#pop").popover({placement:'bottom', trigger:'hover'}); 
+   	$("#pop").popover('show'); 
 });
