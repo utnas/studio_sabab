@@ -1,1 +1,1 @@
-web: `bundle exec rails server -p $3003`
+web: bundle exec rails server -p $3003
