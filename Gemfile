@@ -57,6 +57,6 @@ end
 
 gem 'protected_attributes'
 gem "active_model_serializers"
-group :assets do
+#group :assets do
   gem "ember-rails", github: "emberjs/ember-rails"
-end
+#end
