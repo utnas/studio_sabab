@@ -8,9 +8,16 @@
   	<div class="right-position span-custom">
   		<h3>{{first_name}} {{last_name}}</h3>
   		<hr>
-      	<p><h4>{{activity}} basé à {{location}}</h4><p/>
-      		{{#linkTo 'partner' id="pop" class="btn btn-info" rel="popover" data-content="C'est tout simple à 	faire !" data-original-title="Test du Popover"}}
-      	Cliquez pour plus d'informations sur <br/>{{first_name}} {{last_name}}
-      	{{/linkTo}}
+      	<p>
+      		<h4>
+      			{{activity}} basé à {{location}}
+      		</h4>
+      	<p/>
+      	<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">
+      		Cliquez pour plus d'informations sur <br/>{{first_name}} {{last_name}}
+      	</button>
+ 		<div id="demo" class="collapse"> 
+ 			<div class='alert alert-info'> {{markdown description}} </div>
+ 		</div>
 	</div>
 </ul>

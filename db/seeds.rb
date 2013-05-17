@@ -25,8 +25,26 @@ Artist.create(first_name: 'Beyou', last_name: 'Ciel', description: "Musicien con
 Artist.create(first_name: 'Canta', last_name: 'Niboma', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
 
 # Partners
-Partner.create(first_name: 'Christophe', last_name: 'Darlot', activity: 'Ingénieur du son', location: 'Besançon - France', description: 'L\'ingénieur du son, réalisateur, arrangeur et musicien est docteur en informatique. Il possède un studio d\'enregistrement et collabore avec Aldebert, artiste bisontin de chanson française. Il l’accompagne comme musicien sur scène (Claviers/Accordéon). "En studio, il réalise, mixe ses albums et arrange ou co-arrange la plupart de ses titres. Cette collaboration donnera naissance à 5 albums, un DVD et l\'emmènera sur les routes pour plus de 600 concerts en France et à l’étranger".
-Christophe Darlot a collaboré, entre autres, avec : Aldebert - Amélie les Crayons - Anne Sylvestre - Cali - Clarika - Elodie Frégé - Les ogres de Barback - Marcel Amont - Maxime le Forestier - Renan Luce - Steve Warring - Tiéfaine - Tram des Balkans', picture: '/img/partners/christopheDarlot.jpg')
+Partner.create(first_name: 'Christophe', last_name: 'Darlot', activity: 'Ingénieur du son', location: 'Besançon - France', description: '<p>Ingénieur du son, réalisateur, arrangeur et musicien est docteur en informatique. Christophe Darlot possède un studio d\'enregistrement et collabore avec Aldebert, artiste bisontin de chanson française.
+</p> 
+<p>"En studio, il réalise, mixe et arrange ou co-arrange. Il a déjà réalisé plus de 15 albums, un DVD et  tourne avec Aldebert sur les routes pour plus de 600 concerts en France et à l’étranger".
+</p>
+Christophe Darlot a collaboré avec : 
+<ul>
+<li>Aldebert</li> 
+<li>Amélie les Crayons</li> 
+<li>Anne Sylvestre</li> 
+<li>Cali</li> 
+<li>Clarika</li> 
+<li>Elodie Frégé</li> 
+<li>Les ogres de Barback</li> 
+<li>Marcel Amont</li> 
+<li>Maxime le Forestier</li> 
+<li>Renan Luce</li> 
+<li>Steve Warring</li> 
+<li>Tiéfaine</li> 
+<li>Tram des Balkans</li> 
+</ul>', picture: '/img/partners/christopheDarlot.jpg')
 Partner.create(first_name: 'Doris', last_name: 'Beya', activity: 'Ingénieur du son', location: 'Kinshasa - R.D. Congo', description: 'Blabla', picture: '/img/partners/dorisBeya.jpg')
 
 # Material
