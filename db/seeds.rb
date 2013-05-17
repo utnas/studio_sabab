@@ -27,7 +27,7 @@ Artist.create(first_name: 'Canta', last_name: 'Niboma', description: "Musicien c
 # Partners
 Partner.create(first_name: 'Christophe', last_name: 'Darlot', activity: 'Ingénieur du son', location: 'Besançon - France', description: '<p>Ingénieur du son, réalisateur, arrangeur et musicien est docteur en informatique. Christophe Darlot possède un studio d\'enregistrement et collabore avec Aldebert, artiste bisontin de chanson française.
 </p> 
-<p>"En studio, il réalise, mixe et arrange ou co-arrange. Il a déjà réalisé plus de 15 albums, un DVD et  tourne avec Aldebert sur les routes pour plus de 600 concerts en France et à l’étranger".
+<p>En studio, il réalise, mixe et arrange ou co-arrange. Il a déjà réalisé plus de 15 albums, un DVD et  tourne avec Aldebert sur les routes pour plus de 600 concerts en France et à l’étranger.
 </p>
 Christophe Darlot a collaboré avec : 
 <ul>
@@ -45,7 +45,18 @@ Christophe Darlot a collaboré avec :
 <li>Tiéfaine</li> 
 <li>Tram des Balkans</li> 
 </ul>', picture: '/img/partners/christopheDarlot.jpg')
-Partner.create(first_name: 'Doris', last_name: 'Beya', activity: 'Ingénieur du son', location: 'Kinshasa - R.D. Congo', description: 'Blabla', picture: '/img/partners/dorisBeya.jpg')
+Partner.create(first_name: 'Doris', last_name: 'Beya', activity: 'Ingénieur du son', location: 'Kinshasa - R.D. Congo', description: '<p>Ingénieur du son au studio Sabab Kinshasa R.D. Congo. Doris Beya travaille depuis 2001 avec le réalisateur, auteur, compositeur ZOLA Tempo.
+</p>
+<p>Ses premiers pas, ils les a réalisés avec Gatho Beevans. Il a ensuite rejoint Zola Tempo au Studio Bobongo entant que pereneur de son. Il a déjà eregistré plus de 25 albums des grands artistes dont:
+<ul>
+<li>Papa Wemba</li> 
+<li>Lokwa Kanza</li> 
+<li>Bozi boziana</li> 
+<li>Simaro Lutumba</li>
+<li>JB Mpiana</li>
+<li>...</li>
+</ul>
+</p> ', picture: '/img/partners/dorisBeya.jpg')
 
 # Material
 Material.create([

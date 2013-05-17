@@ -35,4 +35,7 @@ $(function(){
    		alert('dsdsdsdsd');
    		$('#demo').fadeIn('slow');
    	});
+   	$(".demo").fadeOut(1600, "linear", function(){
+   		alert('SSSSSS');
+   	});
 });
