@@ -1,1 +1,1 @@
-web: bundle exec rails server -p $31003
+web: bundle exec rails server
