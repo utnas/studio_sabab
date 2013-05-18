@@ -7,18 +7,18 @@ gem 'rails', '4.0.0.rc1'
 
 # Gems used only for assets and not required
 # in production environments by default.
-group :assets do
+#group :assets do
   gem 'sass-rails',   '4.0.0.rc1'
   gem 'coffee-rails', '4.0.0'
   gem 'bootstrap'
+  gem 'twitter-bootstrap-rails'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   #gem 'therubyracer', platforms: :ruby
   gem 'uglifier', '>= 1.3.0'
   #gem "less-rails"
   #gem 'execjs'
-end
-
-  gem 'twitter-bootstrap-rails'
+  gem 'handlebars-source', '~> 1.0.0.rc3'
+#end
 
 gem 'jquery-rails'
 

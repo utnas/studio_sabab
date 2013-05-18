@@ -1,13 +1,14 @@
 GIT
   remote: git://github.com/emberjs/ember-rails.git
-  revision: 4aca660ed814770dc74acf49a00f8fb8e34db705
+  revision: f8ae848eaf8c0e3b00e75ee54f43f4f00a56c92f
   specs:
     ember-rails (0.12.0)
       active_model_serializers
       barber (>= 0.4.1)
       ember-data-source
-      ember-source (>= 1.0.0.rc2.2)
+      ember-source
       execjs (>= 1.2)
+      handlebars-source
       railties (>= 3.1)
 
 GEM
@@ -63,7 +64,7 @@ GEM
     colorize (0.5.8)
     ember-data-source (0.0.5)
       ember-source
-    ember-source (1.0.0.rc3.3)
+    ember-source (0.0.8)
       handlebars-source (>= 1.0.0.rc3, < 1.0.0.rc4)
     erubis (2.7.0)
     eventmachine (1.0.3)
@@ -87,8 +88,7 @@ GEM
       colorize
       railties (>= 3.1, < 5)
       sprockets
-    mail (2.5.3)
-      i18n (>= 0.4.0)
+    mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.23)
@@ -167,7 +167,7 @@ GEM
       execjs
       railties (>= 3.1)
     tzinfo (0.3.37)
-    uglifier (2.1.0)
+    uglifier (2.1.1)
       execjs (>= 0.3.0)
       multi_json (~> 1.0, >= 1.0.2)
     unicorn (4.6.2)
@@ -186,6 +186,7 @@ DEPENDENCIES
   capybara
   coffee-rails (= 4.0.0)
   ember-rails!
+  handlebars-source (= 1.0.0.rc3)
   jbuilder (~> 1.0.1)
   jquery-rails
   konacha
