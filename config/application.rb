@@ -19,5 +19,7 @@ module StudioSabab
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     config.assets.enabled = true
+    config.assets.precompile += %w( bootstrap.css )
+    config.assets.precompile += %w( bootstrap.js )
   end
 end
