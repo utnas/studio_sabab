@@ -61,6 +61,7 @@ GEM
       execjs
     coffee-script-source (1.6.2)
     colorize (0.5.8)
+    commonjs (0.2.6)
     ember-data-source (0.0.5)
       ember-source
     ember-source (1.0.0.rc3.3)
@@ -87,6 +88,11 @@ GEM
       colorize
       railties (>= 3.1, < 5)
       sprockets
+    less (2.3.2)
+      commonjs (~> 0.2.6)
+    less-rails (2.3.3)
+      actionpack (>= 3.1)
+      less (~> 2.3.1)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -185,9 +191,11 @@ DEPENDENCIES
   capybara
   coffee-rails (= 4.0.0)
   ember-rails!
+  execjs
   jbuilder (~> 1.0.1)
   jquery-rails
   konacha
+  less-rails
   minitest
   minitest-rails
   minitest-rails-capybara
