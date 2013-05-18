@@ -7,7 +7,7 @@ gem 'rails', '4.0.0.rc1'
 
 # Gems used only for assets and not required
 # in production environments by default.
-#group :assets do
+group :assets do
   gem 'sass-rails',   '4.0.0.rc1'
   gem 'coffee-rails', '4.0.0'
   gem 'bootstrap'
@@ -18,7 +18,7 @@ gem 'rails', '4.0.0.rc1'
   #gem "less-rails"
   #gem 'execjs'
   gem 'handlebars-source', '~> 1.0.0.rc3'
-#end
+end
 
 gem 'jquery-rails'
 
