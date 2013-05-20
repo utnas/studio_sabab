@@ -36,7 +36,6 @@
 	position:relative;
 	border:none;
 	visibility:hidden;
-	text-shadow: ;
 }
 
 /* the link style (if an image is wrapped in a link) */
@@ -58,7 +57,7 @@ div.mc-caption-bg, div.mc-caption-bg2 {
 	z-index:3;
 	overflow:hidden;
 	font-size:0;
-
+	text-shadow: 0px 0px 0px;
 }
 div.mc-caption-bg {
 	background:#DD; /*Caption background color. Can be set to "background:transparent;", or set to semi-transparent through the sliderOptions.captionOpacity setting in the javascript.*/
