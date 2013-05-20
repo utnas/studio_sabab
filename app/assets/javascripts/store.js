@@ -1,5 +1,5 @@
 StudioSabab.Adapter = DS.RESTAdapter.extend({
-    url: 'http://localhost:3000'
+    url: 'http://localhost:5432'
 });
 
 StudioSabab.Adapter.map('StudioSabab.Artist', {
