@@ -15,7 +15,7 @@
     float:left;
     width:786px;
     height:406px;/* Make it the same size as your images. */
-	background:#fff url(loading.gif) no-repeat 50% 50%;
+	background:#fff url("/img/loading.gif") no-repeat 50% 50%;
 	position:relative;
 	margin:0 auto;/*make the image slider center-aligned */
 }
