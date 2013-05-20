@@ -34,13 +34,11 @@ gem 'jbuilder', '~> 1.0.1'
 # Use unicorn as the app server
 # gem 'unicorn'
 
-group :development, :test do
-  gem 'sqlite3'
-end
-
 group :production do
   gem 'pg'
   gem 'unicorn'
+  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
+  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
 
 group :test, :development do
@@ -50,6 +48,7 @@ group :test, :development do
   gem 'capybara'
   gem 'konacha'
   gem 'poltergeist'
+  gem 'sqlite3'
 end
 
 # Deploy with Capistrano

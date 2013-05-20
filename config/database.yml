@@ -20,7 +20,7 @@ test:
 
 production:
   adapter:  postgresql
-  encoding: utf8
+  encoding: unicode
   pool: 5
   database:  daju875k6nvdvq
   user:      wbsuebllhikuwn
