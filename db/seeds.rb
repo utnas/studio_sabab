@@ -7,25 +7,25 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 # Artists
-Artist.create(first_name: 'Papa', last_name: 'Wemba', description: "Papa Wemba est un chanteur, compositeur et acteur congolais, un des artistes-musiciens africains les plus populaires depuis plusieurs années.").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
-Artist.create(first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
-Artist.create(first_name: 'Ndombe', last_name: 'Opetum', description: "Ndombe description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
+Artist.create(first_name: 'Papa', last_name: 'Wemba', description: "<p>Papa Wemba est un chanteur, compositeur et acteur congolais, un des artistes-musiciens africains les plus populaires depuis plusieurs années.</p><p>Dans les années 1950, la célèbre rumba congolaise dominait le continent. Un demi-siècle plus tard, elle n'a rien perdu de sa jeunesse, même si elle a subi entre-temps de nombreux et radicaux liftings.</p>").albums.create(title: 'Maître d\'école', description: 'Nouvel album de Papa Wemba enregistré en partie au Studio SABAB dont la sortie est prévue mi 2013')
+Artist.create(first_name: 'Simaro', last_name: 'Lutumba', description: "Simaro description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro enregistré et mixé au Studio SABAB')
+Artist.create(first_name: 'Ndombe', last_name: 'Opetum', description: "L’artiste musicien RDcongolais Ndombe Opetum dit «Pépé Ndombe », décédé  enmai 2012 à Kinshasa, à l’âge de 68 ans. Un des monuments de la musique Congolaise moderne.").albums.create(title: 'Tendresse', description: 'Le tout dernier album de Pépé Ndombe Opetum enregistré deux semaines avant sa mort')
 Artist.create(first_name: 'Reddy', last_name: 'Amisi', description: "Reddy description").albums.create(title: 'Encore et toujours', description: 'Nouvel album du poète Simaro')
 Artist.create(first_name: 'JB', last_name: 'Mpiana', description: "Jean-Bedèle Mpiana description").albums.create(title: 'Chanson Primus', description: 'Nouvel album du poète Simaro')
 Artist.create(first_name: 'Jossart', last_name: 'Nyoka-Longo', description: "Zaîko Langa-Langa Nkolo Mboka").albums.create(title: 'Bande Annonce', description: 'Vimbaaaaaah Pschhhhhttt !!!!!')
 Artist.create(first_name: 'Jean-Goubald', last_name: 'Kalala', description: "Jean Kalala Midibu, s'est révélé au public congolais en 2005 avec son album « Bombe Anatomique »").albums.create(title: 'Norme', description: 'Le deuxième album solo de l\'artiste Jean-Goubald. Qui a connu la participation de Lokua Kanza')
 Artist.create(first_name: 'Grand-Père', last_name: 'Bozi Boziana', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
-Artist.create(first_name: 'Nzuzi', last_name: 'Makambo', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
-Artist.create(first_name: 'Manda', last_name: 'Chante', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
-Artist.create(first_name: 'Blaise', last_name: 'Bula', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
-Artist.create(first_name: 'Lola', last_name: 'Kadogo', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
+Artist.create(first_name: 'Nzuzi', last_name: 'Makambo', description: "...").albums.create(title: '..', description: '')
+Artist.create(first_name: 'Manda', last_name: 'Chante', description: "...").albums.create(title: '...', description: '')
+Artist.create(first_name: 'Blaise', last_name: 'Bula', description: "...").albums.create(title: '...', description: '')
+Artist.create(first_name: 'Lola', last_name: 'Kadogo', description: "...").albums.create(title: '..', description: '')
 
-Artist.create(first_name: 'Franck', last_name: 'Mulaja', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
-Artist.create(first_name: 'Beyou', last_name: 'Ciel', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
-Artist.create(first_name: 'Canta', last_name: 'Niboma', description: "Musicien congolais né en 1952. Il a fait ses début à l'orchestre Zaïko Langa Langa au début des années 70.<br/>Bozi a aussi gagné un prix aux Cora 1999 en Afrique du Sud.").albums.create(title: 'Crise Financière', description: '')
+Artist.create(first_name: 'Franck', last_name: 'Mulaja', description: "...").albums.create(title: '...', description: '')
+Artist.create(first_name: 'Beyou', last_name: 'Ciel', description: "...").albums.create(title: '...', description: '')
+Artist.create(first_name: 'Canta', last_name: 'Niboma', description: "...").albums.create(title: '...', description: '')
 
 # Partners
-Partner.create(first_name: 'Christophe', last_name: 'Darlot', activity: 'Ingénieur du son', location: 'Besançon - France', description: '<p>Ingénieur du son, réalisateur, arrangeur et musicien est docteur en informatique. Christophe Darlot possède un studio d\'enregistrement et collabore avec Aldebert, artiste bisontin de chanson française.
+Partner.create(first_name: 'Christophe', last_name: 'Darlot', activity: 'Ingénieur du son', location: 'Besançon - France', description: '<p>Ingénieur du son, réalisateur, arrangeur et musicien, Christophe Darlot possède un studio d\'enregistrement et collabore avec Aldebert, artiste bisontin de chanson française.
 </p> 
 <p>En studio, il réalise, mixe et arrange ou co-arrange. Il a déjà réalisé plus de 15 albums, un DVD et  tourne avec Aldebert sur les routes pour plus de 600 concerts en France et à l’étranger.
 </p>
