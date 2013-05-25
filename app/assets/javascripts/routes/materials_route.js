@@ -8,4 +8,8 @@ StudioSabab.MaterialsRoute = Ember.Route.extend({
   	}
 });
 
-
+StudioSabab.MaterialsIndexRoute = Ember.Route.extend({
+	redirect: function (){
+  		this.transitionTo('material', this.modelFor('materials').get('firstObject'));
+  	}
+});
