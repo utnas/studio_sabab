@@ -31,11 +31,7 @@ $(function(){
 		out: {effect: 'fadeOutDown', delayScale: 1.5, shuffle: true,}
 	});
 
-   	$('#demo').collapse(function(){
-   		alert('dsdsdsdsd');
-   		$('#demo').fadeIn('slow');
-   	});
-   	$(".demo").fadeOut(1600, "linear", function(){
-   		alert('SSSSSS');
-   	});
+	imageSlider.thumbnailPreview(function () { 
+        
+    });
 });
