@@ -32,7 +32,7 @@ $(function(){
 	});
 
 	$('#small-carousel').carousel({
-	  interval: 8000
+	  interval: 30000
 	})
 	$('#big-carousel').carousel({
 	})
