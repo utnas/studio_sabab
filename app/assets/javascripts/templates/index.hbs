@@ -1,71 +1,111 @@
-<!--div id="featured"> 
-	<div class="content" style="">
-		 Orbit does content now. 
-		 Highlight me...I'm text. 
+<!--div id="sliderFrame">
+	<div id="myCarousel" class="carousel slide">
+		  	<ol class="carousel-indicators">
+		    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		    	<li data-target="#myCarousel" data-slide-to="1"></li>
+		    	<li data-target="#myCarousel" data-slide-to="2"></li>
+		  	</ol>
+
+		  	<div class="carousel-inner">
+		  		
+			    {{#each controller.contentWithIndex}}
+			    	{{#if picture }}
+			    		
+				    	<div class="active"> 
+					    		<img {{bindAttr class=":item isFirst:active" src='picture'}} alt=""/>
+					        	<div class="carousel-caption">
+				            		<p class='centering'>{{ first_name}} {{last_name}}</p>
+				          		</div>
+			          		{{/if}}
+			          	</div>
+				{{/each}}
+		  	</div>
+
+		  	<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+		  	<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 	</div>
-	<img src="/img/StudioSabab/Wemba.jpg" data-caption="#htmlCaption" data-thumb="/img/StudioSabab/Wemba.jpg" />
-	<img src="/img/StudioSabab/Manda3.jpg" data-thumb="/img/StudioSabab/Manda3.jpg" />
-	<img src="/img/StudioSabab/zola-Tempo.jpg" />
 </div-->
-<div id="sliderFrame">
-    <div id="slider">
-    	<img src="/img/StudioSabab/zola-Tempo.jpg" alt="Zola Tempo Artiste et Réalisateur. Propriétaire du Studio Sabab" />
-    	<img src="/img/StudioSabab/Wemba.jpg" alt="Papa Wemba au Studio Sabab" />
-        <img src="/img/StudioSabab/Manda3.jpg" alt="Manda Chante au Studio Sabab" />
-        <img src="/img/StudioSabab/Werra2.jpg" alt="Werrason après avoir posé sa voix"/>
-        <img src="/img/StudioSabab/LeKarmapaRamazani.jpg" alt="Lors de l'écoute du mix de la chanson"/>
-        <img src="/img/StudioSabab/reddy.jpg" alt="Enregistrement de l'album Likelemba"/>
-        <img src="/img/StudioSabab/Bozi2.jpg" alt="Enregistrement de l'album Crise Financière"/>
-        <img src="/img/StudioSabab/Goubald.jpg" alt="Enregistrement de l'album Crise Norme"/>
-    </div>
-	 
-	<div class="scroll-thumb">
-		<div id="thumbs">
-			<div class="thumb">
-		        <div class="frame"><img src="/img/StudioSabab/zola-Tempo.jpg" /></div>
-		        <div class="thumb-content"><p>Zola Tempo</p>Enregistrement de l'album Norme de Goubald</div>
-		        <div style="clear:both;"></div>
-		    </div>
-			<div class="thumb">
-		        <div class="frame"><img src="/img/StudioSabab/Wemba.jpg" /></div>
-		        <div class="thumb-content"><p>Papa Wemba</p>Patron de l'orchestre Viva La Musica</div>
-		        <div style="clear:both;"></div>
-		    </div>
-		    <div class="thumb">
-		        <div class="frame"><img src="/img/StudioSabab/Manda3.jpg" /></div>
-		        <div class="thumb-content"><p>Manda Chante</p>Patron de l'orchestre Wenge Référence ancien de Wenge Musica</div>
-		        <div style="clear:both;"></div>
-		    </div>
-		    <div class="thumb">
-		        <div class="frame"><img src="/img/StudioSabab/Werra2.jpg" /></div>
-		        <div class="thumb-content"><p>Le Roi de la forêt</p>Werrason le patron de l'orchestre Wenge Maison Mère</div>
-		        <div style="clear:both;"></div>
-		    </div>
-		    <div class="thumb">
-		        <div class="frame"><img src="/img/StudioSabab/LeKarmapaRamazani.jpg" /></div>
-		        <div class="thumb-content"><p>Ramazani et Le Karmapa</p>Lors de l'écoute du mix de la chanson</div>
-		        <div style="clear:both;"></div>
-		    </div>
-		    <div class="thumb">
-		        <div class="frame"><img src="/img/StudioSabab/reddy.jpg" /></div>
-		        <div class="thumb-content">
-		        	<p>Reddy Amisi</p>Enregistrement de l'album Likelemba
-		        </div>
-		        <div style="clear:both;"></div>
-		    </div>
-		    <div class="thumb">
-		        <div class="frame"><img src="/img/StudioSabab/Bozi2.jpg" /></div>
-		        <div class="thumb-content"><p>Grand-Père Bozi Boziana</p>Enregistrement de l'album Crise Financière</div>
-		        <div style="clear:both;"></div>
-		    </div>
-		    <div class="thumb">
-		        <div class="frame"><img src="/img/StudioSabab/Goubald.jpg" /></div>
-		        <div class="thumb-content"><p>Jean-Goubald</p>Enregistrement de l'album Norme</div>
-		        <div style="clear:both;"></div>
-		    </div>
+
+<div id="sliderFrame" class="reset-shadow">
+	<div class="row-fluid">
+  	<div class="span9">
+		<div id="big-carousel" class="carousel slide"> 
+			<div class="carousel-inner">
+				<div class="active item"> 
+					<img src="/img/StudioSabab/zola-Tempo.jpg" />
+			        <div class="carousel-caption">
+			        	<p>Zola Tempo</p>
+			        	<p>Enregistrement de l'album Norme de Goubald</p>
+			        </div>
+			    </div>
+				<div class="item">
+			        <img src="/img/StudioSabab/Wemba.jpg" />
+			        <div class="carousel-caption">
+			        	<p>Papa Wemba</p>
+			        	<p>Patron de l'orchestre Viva La Musica</p>
+			        </div>
+			    </div>
+			    <div class="item">
+			        <img src="/img/StudioSabab/Manda3.jpg" />
+			        <div class="carousel-caption">
+			        	<p>Manda Chante</p>
+			        	<p>Patron de l'orchestre Wenge Référence ancien de Wenge Musica</p>
+			        </div>
+			    </div>
+			    <div class="item">
+			        <img src="/img/StudioSabab/Werra2.jpg" />
+			        <div class="carousel-caption">
+			        	<p>Le Roi de la forêt</p>
+			        	<p>Werrason le patron de l'orchestre Wenge Maison Mère</p>
+			        </div>
+			    </div>
+			    <div class="item">
+			        <img src="/img/StudioSabab/LeKarmapaRamazani.jpg" />
+			        <div class="carousel-caption">
+			        	<p>Ramazani et Le Karmapa</p>
+			        	<p>Lors de l'écoute du mix de la chanson</p>
+			        </div>
+			    </div>
+			    <div class="item">
+			        <img src="/img/StudioSabab/reddy.jpg" />
+			        <div class="carousel-caption">
+			        	<p>Reddy Amisi</p>
+			        	<p>Enregistrement de l'album Likelemba</p>
+			        </div>
+			    </div>
+			    <div class="item">
+			        <img src="/img/StudioSabab/Bozi2.jpg" />
+			        <div class="carousel-caption">
+			        	<p>Grand-Père Bozi Boziana</p>
+			        	<p>Enregistrement de l'album Crise Financière</p>
+			        </div>
+			    </div>
+			    <div class="item">
+			        <img src="/img/StudioSabab/Goubald.jpg" />
+			        <div class="carousel-caption">
+			        	<p>Jean-Goubald</p>
+			        	<p>Enregistrement de l'album Norme</p>
+			        </div>
+			    </div>
+			</div>
+
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+	</div>
+
+	<div class="span3">
+		<div id="small-carousel" class="carousel slide"> 
+			<div class="carousel-inner">
+				<div class="active item"> 
+					<img src="img/StudioSabab/studio-description.jpg">
+			    </div>
+				<div class="item">
+					<img src="/img/StudioSabab/rack1_accueil.jpg">
+			    </div>
+			</di>
 		</div>
 	</div>
 </div>
 
-<!--clear above float:left elements. It is required if above #slider is styled as float:left. -->
-<!--div style="clear:both;height:0;"></div-->
+

@@ -31,7 +31,9 @@ $(function(){
 		out: {effect: 'fadeOutDown', delayScale: 1.5, shuffle: true,}
 	});
 
-	$('.carousel').carousel({
-  		interval: 2000
+	$('#small-carousel').carousel({
+	  interval: 8000
+	})
+	$('#big-carousel').carousel({
 	})
 });

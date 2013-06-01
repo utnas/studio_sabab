@@ -1,6 +1,6 @@
 StudioSabab.IndexView = Ember.View.extend({
-	didInsertElement: function(){
+	/*didInsertElement: function(){
 		window.imageSlider.reload();
 		debugger;
-  	}
+  	}*/
 });
