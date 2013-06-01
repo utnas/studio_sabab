@@ -31,7 +31,7 @@ $(function(){
 		out: {effect: 'fadeOutDown', delayScale: 1.5, shuffle: true,}
 	});
 
-	imageSlider.thumbnailPreview(function () { 
-        
-    });
+	$('.carousel').carousel({
+  		interval: 2000
+	})
 });
