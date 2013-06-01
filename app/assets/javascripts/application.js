@@ -35,5 +35,6 @@ $(function(){
 	  interval: 30000
 	})
 	$('#big-carousel').carousel({
+		
 	})
 });
