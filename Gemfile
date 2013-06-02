@@ -16,9 +16,9 @@ group :assets do
   #gem "less-rails"
   #gem 'execjs'
   gem 'handlebars-source', '1.0.0.rc.4'
+  gem 'jquery-ui-rails'
+  gem 'jquery-rails'
 end
-
-gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
