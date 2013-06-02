@@ -25,7 +25,6 @@ ActiveRecord::Schema.define(version: 20130429180442) do
   create_table "artists", force: true do |t|
     t.string   "first_name"
     t.string   "last_name"
-    t.string   "picture"
     t.text     "description"
     t.datetime "created_at"
     t.datetime "updated_at"
