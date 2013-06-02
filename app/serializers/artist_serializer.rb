@@ -1,5 +1,5 @@
 class ArtistSerializer < ActiveModel::Serializer
-  attributes :id, :first_name, :last_name, :description
+  attributes :id, :first_name, :last_name, :picture, :description
   
   has_many :albums, embed: :objects
 end
