@@ -32,9 +32,9 @@ $(function(){
 	});
 
 	$('#small-carousel').carousel({
-	  interval: 30000
+	  interval: 3000
 	})
 	$('#big-carousel').carousel({
-		
+
 	})
 });
