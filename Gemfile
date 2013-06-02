@@ -15,7 +15,7 @@ group :assets do
   gem 'uglifier', '>= 1.3.0'
   #gem "less-rails"
   #gem 'execjs'
-  gem 'handlebars-source', "1.0.0-rc.3"
+  gem 'handlebars-source', '1.0.0.rc.3'
 end
 
 gem 'jquery-rails'
